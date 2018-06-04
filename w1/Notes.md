@@ -27,3 +27,15 @@ Merge Sort:
 merge: get head of two children array,, copy smaller one to the original array
 
 running time: number of operations (as a debugger, how many times you click to run the programme)
+
+
+Principles:
+1. worst-case analysis
+    average-case/benchmarks
+    - need domain knowledge, what inputs will be more common etc.
+2. ignore lower order terms/ constant factors
+3. asymptotic analysis: focus on large input
+    - in fine tuned version merge sort, there will be a threshold, below the threshold it will use small constant factor sorting such as insertion. (constant factor is meaningful)
+
+
+fast: worst-case running time grows slowly with input sizes -> close to O(n) as possible.
